@@ -1,0 +1,5 @@
+https://www.javacodegeeks.com/2014/04/javafx-tip-1-resizable-canvas.html
+
+add parent to resizablecanvas directly.
+ - or add width, height properties to the canvas
+ - so the binding is in the canvas
