@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------
+CONCEPT <Basic-Ideas for the framework 'Fw-Background'>
+--------------------------------------------------------------------------------
+INTENTION
+In this concept I want to describe the basic ideas for the new framework 'Fw-Background'.
+
+The basic features from the framework are splitted into 2 main sections.
+ - An editor for crud background operations.
+ - Functionalities for
+    - drawing the background as 'Canvas' with JavaFX objects.
+    - a writer and reader from the configured objects in a .json file.
+
+Info:
+JavaFX objects aren't per default serializable. So the question is how to persist 
+effectly the used JavaFX objects with the relevant datas?
+ - Should I create for every used JavaFX object an own pojo class
+   or should I create for all classes converters?
+ - An alternative is to write own functionalties to save, read JavaFX objects.
+    - For example with MethodeHandle.lookup. Allowed the access from methods with 
+      lambda (BiConsumer, BiFunction). So I need only the name from the methods 
+      which are supported by the framework for a given JavaFX class and I can read, 
+      write data to the objects.
+    - https://dzone.com/articles/hacking-lambda-expressions-in-java
+
+--------------------------------------------------------------------------------
+SPECIFICATION
+ - ...
+
+--------------------------------------------------------------------------------
+LINKS
+ - ...
+
+--------------------------------------------------------------------------------
+EXTRAS
+ - ...
+
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
