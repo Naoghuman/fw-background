@@ -28,6 +28,7 @@ TODO
 
 
 #### Documentation
+#6 [doc] Create new concept 'Navigation'.
 #2 [doc] Create new concept 'Basic-idea' for the framework.
 
 
