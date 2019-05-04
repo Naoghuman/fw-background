@@ -1,0 +1,43 @@
+--------------------------------------------------------------------------------
+CONCEPT <Navigation-Details>
+--------------------------------------------------------------------------------
+INTENTION
+In this concept I want to describe the feature 'Navigation-Details'.
+
+The DetailsView is on the second component from the left.
+ - First the 'NavigationPalette' with 'NavigationBackground'.
+ - Then the 'DetailsView'.
+ - And on the right side the 'EditorView'.
+
+The DetailsView shows dependen details from selected elements.
+ - Elements from the 'NavigationPalette' shows details about allowed parents and
+   childs.
+ - Elements from the 'NavigationBackground' shows components for the editing from
+   the attributs.
+ - Selected elements in the 'EditorView' shows the same like above.
+
+--------------------------------------------------------------------------------
+SPECIFICATION
+The DetailsView is a VBox in a ScrollPane.
+ - which content will loaded from the FXMLModel.
+ - A new type is needed to different between 'NavigationPalette' and
+   'NavigationBackground' / 'Editor'.
+
+--------------------------------------------------------------------------------
+LINKS
+ - ...
+
+--------------------------------------------------------------------------------
+EXTRAS
+ - ...
+
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+

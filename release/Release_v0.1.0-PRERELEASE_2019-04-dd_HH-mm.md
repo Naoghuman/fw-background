@@ -29,6 +29,7 @@ TODO
 
 #### Documentation
 #12 [doc] Create new concept 'Palette' for the 'Navigation'.
+#8 [doc] Create new concept 'Details' for the 'Navigation'.
 #6 [doc] Create new concept 'Navigation'.
 #2 [doc] Create new concept 'Basic-idea' for the framework.
 
