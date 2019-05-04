@@ -1,0 +1,45 @@
+--------------------------------------------------------------------------------
+CONCEPT <Navigation-Palette>
+--------------------------------------------------------------------------------
+INTENTION
+In this concept I want to describe the feature 'Navigation-Palette'.
+
+The 'Navigation-Palette' contains all elements which can be added to a 'Background'.
+ - The elements can be D&D from the palette to the BackgroundView.
+ - Elements can be added to defined parents.
+ - Elements can have other elements from defined types.
+
+--------------------------------------------------------------------------------
+SPECIFICATION
+NavigationPaletteView
+ - All elements will be listed in one VBox.
+ - Click on an element shows the infos about allowed parents, childs and more in
+   the 'DetailsView'.
+
+Elements types:
+ - Background: Canvas / AnchorPane
+ - Image     : JavaFX image
+ - Clip      : Shape (rectangle, circle...)
+
+--------------------------------------------------------------------------------
+LINKS
+ - ...
+
+--------------------------------------------------------------------------------
+EXTRAS
+Open questions:
+ - Can all stuff rendered in a Canvas?
+ - Animations, effects... also?
+ - If not render in Canvas what is possible, then add the image from the Canvas
+   to an AnchorPane(ImageView) + Animations.
+
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
