@@ -15,6 +15,7 @@ TODO
 
 
 #### Feature
+#3 [test] Create prototype 'NavigationPalette'.
 #1 [fw] Create project with basic framework structure.
 
 
@@ -60,4 +61,3 @@ Naoghuman
 
 
 [//]: # (Issues which will be integrated in this release)
-#3 [test] Create prototype 'NavigationPalette'. // feature

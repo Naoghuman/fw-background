@@ -109,6 +109,17 @@
                     <include>**/*.jar</include>
                 </includes>
             </resource>
+            <resource>
+                <directory>src/test/resources</directory>
+                <includes>
+                    <include>**/*.css</include>
+                    <include>**/*.fxml</include>
+                    <include>**/*.png</include>
+                    <include>**/*.properties</include>
+                    <include>**/*.txt</include>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
         </resources>
         <finalName>${project.artifactId}-${project.version}</finalName>
     </build>
