@@ -6,10 +6,10 @@ In this concept I want to describe the basic ideas for the 'Navigation' view on
 the left side from the framework.
 
 The Navigation view have following main parts:
- - The 'OptionView' contains actions for the crud operations from a Background.
+ - The 'NavigationOptions' contains actions for the crud operations from a Background.
    - Actions are: Load, save, create and delete a Background.
- - The 'PaletteView' shows all elements which are supported by a Background.
-    - Alle elements have an icon. Momentary 'famfamfam'.
+ - The 'NavigationPalette' shows all elements which are supported by a Background.
+    - All elements have an icon. Momentary 'famfamfam'.
     - D&D from the elements in the palette to the BackgroundView should be able.
     - Selected Elements shows a DetailsView with all supported options from the 
       given element.
@@ -21,7 +21,8 @@ The Navigation view have following main parts:
        - Clip      : A shape which will be used in a image for clipping.
        - Text      : An individual message.
        - ...
- - The 'BackgroundView' contains all defined elements from the user.
+ - The 'NavigationBackground' contains all defined elements from the user for a 
+   'Background'.
     - A TreeView contains all Background elements.
     - D&D from the elements in the BackgroundView should be able.
 

@@ -28,6 +28,7 @@ TODO
 
 
 #### Documentation
+#13 [doc] Create new concept 'Background' for the 'Navigation'.
 #12 [doc] Create new concept 'Palette' for the 'Navigation'.
 #8 [doc] Create new concept 'Details' for the 'Navigation'.
 #6 [doc] Create new concept 'Navigation'.
@@ -59,3 +60,4 @@ Naoghuman
 
 
 [//]: # (Issues which will be integrated in this release)
+#3 [test] Create prototype 'NavigationPalette'. // feature

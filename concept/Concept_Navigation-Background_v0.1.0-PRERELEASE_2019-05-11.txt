@@ -1,0 +1,41 @@
+--------------------------------------------------------------------------------
+CONCEPT <Navigation-Background>
+--------------------------------------------------------------------------------
+INTENTION
+In this concept I want to describe the feature 'Navigation-Background'.
+
+The 'NavigationBackground' is the second lower component on left side.
+ - First the 'NavigationPalette', then the 'NavigationBackground' from top to bottom.
+ - On the right is the 'NavigationDetails'.
+
+The 'NavigationBackground' contains all user defined elements from the 
+'NavigationPalette'.
+ - From 'NavigationPalette' can elements with D&D copied into the 'NavigationBackground'.
+ - A mouseclick on an element shows in the 'NavigationDetails' the description 
+   and components for the editing from the attributs from the component.
+    - This information is another then the shown description if the same element
+      is selected into the 'NavigationPalette'.
+
+--------------------------------------------------------------------------------
+SPECIFICATION
+The 'NavigationBackground' is a TreeView.
+ - The elements are childs from the abstract class Element.
+
+--------------------------------------------------------------------------------
+LINKS
+ - ...
+
+--------------------------------------------------------------------------------
+EXTRAS
+ - ...
+
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
