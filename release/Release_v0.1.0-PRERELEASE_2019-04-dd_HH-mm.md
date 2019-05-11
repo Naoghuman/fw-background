@@ -15,6 +15,7 @@ TODO
 
 
 #### Feature
+#7 [test] Create prototype 'NavigationDetails'.
 #5 [test] Create prototype 'NavigationBackground'.
 #3 [test] Create prototype 'NavigationPalette'.
 #1 [fw] Create project with basic framework structure.
